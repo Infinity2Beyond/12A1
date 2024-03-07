@@ -26,9 +26,15 @@ function show1() {
 }
 function show2() {
     const x = document.getElementById("yess");
-    const y = document.getElementById("click2");
+    const y = document.getElementById("boxx1");
      x.style.display="none";
      y.style.display="block"; 
+}
+function show3() {
+    const x = document.getElementById("boxx1");
+    const y = document.getElementById("img12A1");
+    x.style.display="none";
+    y.style.display="block"; 
 }
 function show() {
     const x = document.getElementById("first");
