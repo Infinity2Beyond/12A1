@@ -24,6 +24,12 @@ function show1() {
      y.style.display="block"; 
      document.getElementById("audio3").play();
 }
+function show2() {
+    const x = document.getElementById("yess");
+    const y = document.getElementById("click2");
+     x.style.display="none";
+     y.style.display="block"; 
+}
 function show() {
     const x = document.getElementById("first");
     const y = document.getElementById("form1");
