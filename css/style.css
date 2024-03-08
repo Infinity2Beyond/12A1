@@ -23,6 +23,12 @@
   }
 } 
 
+a { color: inherit; 
+  text-decoration:none; 
+}
+a:hover {
+  cursor:auto;  
+}
 
 * {
     font-family: 'Be Vietnam', sans-serif;
